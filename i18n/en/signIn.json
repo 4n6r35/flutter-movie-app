@@ -1,0 +1,17 @@
+{
+    "username":"Username",
+    "password":"Password",
+    "errors" :{
+        "username": "Invalid username",
+        "password": "Invalid password",
+        "submit": {
+            "notFound":  "Not Found",
+            "network":  "Network error",
+            "unauthorized":  "Invalid password",
+            "unknow":  "Error",
+            "notVerified":  "Email not verified"
+        }
+    },
+    "signIn": "Sign in"
+
+}

@@ -1,0 +1,21 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.fontLigatures": false,
+    "command-runner.commands": {
+        "pub_get": "flutter pub get",
+        "build_runner": "flutter pub run build_runner build",
+        "build_runner_d": "flutter pub run build_runner build --delete-conflicting-outputs",
+        "flutter_gen": "flutter pub run flutter_gen:flutter_gen_command",
+        "generate_coverage (solo coverage)": "genhtml coverage/lcov.info -o coverage/html",
+        "generar_assets (con flutter gen instalado en dart)": "fluttergen -c pubspec.yaml",
+        "generar idiomas": "flutter pub run slang",
+        "generate_test_and_coverage": "flutter test --coverage && genhtml coverage/lcov.info -o coverage/html"
+    },
+    "conventionalCommits.scopes": [
+        "login"
+    ],
+    "DockerRun.DisableAutoGenerateConfig": true
+}
